@@ -1,0 +1,73 @@
+@import 'base';
+
+.color-page {
+  background-color: $bgc-body;
+}
+
+
+.roll {
+  margin: 15px 0 0 20px;
+
+  li {
+    font-size: 18px;
+
+    a {
+      color: $gray;
+      opacity: .5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.sort {
+  font-size: 16px;
+  margin-right: 145px;
+
+  span {
+    color: $gray;
+    opacity: .6;
+  }
+
+  a {
+    color: $color-text;
+  }
+}
+
+.products {
+  box-sizing: content-box;
+}
+
+.goods {
+  background-color: $white;
+  border: 1px solid $white;
+  height: 265px;
+  margin: 0 25px 0 30px;
+  padding: 15px;
+  width: 230px;
+
+  &:hover {
+    border: 1px solid $color-basic;
+    cursor: pointer;
+  }
+}
+
+.flowing-about-first {
+  margin-top: 10px;
+  width: 200px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.buy {
+  background-color: $color-text;
+  border: 0;
+  color: $white;
+  font-size: 32px;
+  margin: 19px 0 0 37px;
+  padding: 7px;
+}

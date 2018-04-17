@@ -1,0 +1,34 @@
+.footer {
+  background-color: $color-basic;
+}
+
+.icon-vk {
+  margin: 15px 10px 0 0;
+}
+
+.reserved {
+  color: $white;
+  float: right;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.about-us-footer {
+  a {
+    color: $white;
+    font-size: 18px;
+    margin: 20px 45px 0 0;
+    opacity: .6;
+
+    &:hover {
+      color: $white;
+      opacity: 1;
+    }
+  }
+}
+
+.footer-text {
+  color: $white;
+  font-size: 20px;
+  opacity: .6;
+}

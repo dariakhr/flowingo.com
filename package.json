@@ -1,0 +1,27 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss-compile": "node-sass -rw stylesheets/scss -o stylesheets/css",
+    "watch": "npm run scss-compile",
+    "lint-scss": "sass-lint 'stylesheets/scss/*.scss' -v -q",
+    "lint-js": "jslint scripts/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap3": "^3.3.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "sass-lint": "^1.12.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "html-lint": "^2.4.1",
+    "jslint": "^0.12.0",
+    "node-sass": "^4.7.2",
+    "sass-lint": "^1.12.1",
+    "scss-compile": "^0.1.7"
+  }
+}

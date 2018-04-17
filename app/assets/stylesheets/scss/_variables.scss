@@ -1,0 +1,14 @@
+@mixin border {
+  border: 1px solid $color-basic;
+}
+
+@mixin border-about-us {
+  border: 3px solid $color-basic;
+}
+
+// color
+$color-basic: #f56a9e;
+$color-text: #f44482;
+$white: #fff;
+$bgc-body: #f9f9f9;
+$gray: #808080;

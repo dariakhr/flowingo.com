@@ -1,0 +1,20 @@
+@import 'base';
+
+h1 {
+  color: $color-text;
+}
+
+.circle {
+  @include border-about-us;
+  border-radius: 50%;
+}
+
+.pictures {
+  padding: 10px;
+  width: 100px;
+}
+
+span {
+  color: $gray;
+  font-size: 20px;
+}

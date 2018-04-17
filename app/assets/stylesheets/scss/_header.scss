@@ -1,0 +1,120 @@
+.color-page {
+  background-color: $bgc-body;
+}
+
+.header {
+  background-color: $color-basic;
+  min-height: 35px;
+}
+
+.header-authorization {
+  margin: 5px 30px 0 0;
+
+  button {
+    color: $white;
+    font-size: 16px;
+  }
+}
+
+
+.number {
+  margin-top: -2px;
+
+  li {
+    color: $color-text;
+    font-size: 17px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+}
+
+.feedback {
+  margin-right: 50px;
+
+  label {
+    font-size: 16px;
+    opacity: .6;
+  }
+
+  input {
+    @include border;
+    margin-right: -5px;
+    padding: 3px;
+  }
+
+  button {
+    @include border;
+    padding: 3px;
+    width: 25px;
+  }
+}
+
+.work-time {
+  float: left;
+  margin-top: 20px;
+
+  li {
+
+    &:last-child {
+      color: $color-text;
+      font-size: 16px;
+    }
+  }
+}
+
+.undulating {
+  background: url('/src/basic-pic/undulating.png') repeat-x;
+  height: 72px;
+
+  li {
+    font-size: 14px;
+    margin-top: 25px;
+
+    a {
+      color: $color-text;
+      font-size: 18px;
+      margin-right: 45px;
+      opacity: .6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+.mod-head {
+  border: 0;
+
+  h1 {
+    color: $color-text;
+  }
+}
+
+.mod-body {
+  input {
+    @include border;
+    padding: 3px;
+    }
+
+  button {
+    background-color: $color-text;
+    border: 0;
+    }
+
+  a {
+    color: $gray;
+    font-size: 16px;
+    margin-top: 5px;
+    text-decoration: underline;
+  }
+}
+
+.mod-foot {
+  border: 0;
+
+  p {
+    text-align: center;
+  }
+}
